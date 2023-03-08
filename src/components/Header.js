@@ -1,11 +1,8 @@
 "use client";
 import React from "react";
-import { useState } from "react";
 import Link from "next/link";
-import { IoMdMenu, IoMdClose } from "react-icons/io";
 
-export default function Navbar() {
-  const [navbar, setNavbar] = useState(false);
+export default function Header() {
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white ">
       <div className="justify-between md:items-center md:flex">
